@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+gcc *.c -c -fPIC
+gcc *.o -shared -olibgolstd.so
+
+sudo cp libgolstd.so /lib 

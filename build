@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd lib 
+./build
+cd ..
+go build -o golc
